@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body style="padding: 0; margin:0">
+        <div class="header-container">
+            <img class="header-image" src="../../images/CG-shadow.png" width="50px"/>
+            <span class="header-text">Computer Graphics AUEB</span>
+        </div>
+        <div class="container">
+            <div class="title">
+                Sampling Clear Sky Models using Trumcated Gaussian Mixtures
+            </div>
+            <div class="authors">
+                <div class="author">
+                    Nick Vitsas<sup>1</sup>
+                </div>
+                <div class="author">
+                    Konstantinos Vardis<sup>1<a href="https://orcid.org/0000-0003-2282-4644"><img class="orcid" src="../../images/orcid.png"/></a></sup>
+                </div>
+                <div class="author">
+                    Georgios Papaioannou<sup>1<a href="https://orcid.org/0000-0003-4774-0746"><img class="orcid" src="../../images/orcid.png"/></a></sup>
+                </div>
+            </div>
+            <div class="organizations">
+                <div class="organization">
+                    <sup>1</sup>Department of Informatics, Athens University of Economics and Business
+                </div>
+            </div>
+            <div class="teaser-container">
+                <img class="teaser-image" src="teaser.png"/>
+            </div>
+            <div class="event">
+                To appear in Eurographics Symposium on Rendering 2021
+            </div>
+            <div class="section">
+                Abstract
+                <hr>
+            </div>
+            <div class="abstract">
+                Parametric clear sky models are often represented by simple analytic expressions that can  efficiently generate plausible, natural radiance maps of the sky, taking into account expensive and hard to simulate atmospheric phenomena. In this work, we show how such models can be complemented by an equally simple, elegant and generic analytic continuous probability density function (PDF) that provides a very good approximation to the radiance-based distribution of the sky. We describe a fitting process that is used to properly parameterise a truncated Gaussian mixture model, which allows for exact, constant-time and minimal-memory sampling and evaluation of this PDF, without rejection sampling, an important property for practical applications in offline and real-time rendering. We present experiments in a standard importance sampling framework that showcase variance reduction approaching that of a more expensive inversion sampling method using Summed Area Tables.
+            </div>
+            <div class="section">
+                Resources
+                <hr>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/PDFIcon.svg"/>
+                    <span class="resource-text"><a href="http://graphics.cs.aueb.gr/graphics/docs/papers/GMM_Sky_Sampling.pdf">Paper PDF (Author's Version)</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/PDFIcon.svg"/>
+                    <span class="resource-text"><a href="">Supplemental PDF (TBD)</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/GitHubIcon.svg"/>
+                    <span class="resource-text"><a href="https://github.com/cgaueb/tgmm_sky_sampling">GitHub Repository</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/ZIPIcon.svg"/>
+                    <span class="resource-text"><a href="">Supplemental Material (TBD)</a></span>
+                </div>
+            </div>
+            <div class="section">
+                How to cite
+                <hr>
+                <div class="citation">
+                    <div class="citation-text">
+@article{vitsas2021tgmm,
+         booktitle = {Eurographics Symposium on Rendering - DL-only Track},
+         editor = {Bousseau, Adrian and McGuire, Morgan},
+         title = {{Sampling Clear Sky Models using Truncated Gaussian Mixtures}},
+         author = {Vitsas, Nick and Vardis, Konstantinos and Papaioannou, Georgios},
+         year = {2021},
+         publisher = {The Eurographics Association},
+         abstract = "Parametric clear sky models are often represented by simple analytic expressions that can efficiently generate plausible, natural radiance maps of the sky, taking into account expensive and hard to simulate atmospheric phenomena. In this work, we show how such models can be complemented by an equally simple, elegant and generic analytic continuous probability density function (PDF) that provides a very good approximation to the radiance-based distribution of the sky. We describe a fitting process that is used to properly parameterise a truncated Gaussian mixture model, which allows for exact, constant-time and minimal-memory sampling and evaluation of this PDF, without rejection sampling, an important property for practical applications in offline and real-time rendering. We present experiments in a standard importance sampling framework that showcase variance reduction approaching that of a more expensive inversion sampling method using Summed Area Tables."
+}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-text"></div>
+        </div>
+    </body>
+</html>
