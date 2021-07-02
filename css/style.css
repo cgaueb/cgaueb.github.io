@@ -10,6 +10,12 @@
     font-size: 1.5em;
 }
 
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
 .section {
     font-family: Arial, Helvetica, sans-serif;
     vertical-align: baseline;
