@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body style="padding: 0; margin:0">
+        <div class="header-container">
+            <img class="header-image" src="../../images/CG-shadow.png" width="50px"/>
+            <span class="header-text">Computer Graphics AUEB</span>
+        </div>
+        <div class="container">
+            <div class="title">
+                Parallel Transformation of Bounding Volume Hierarchies into Oriented Bounding Box Trees
+            </div>
+            <div class="authors">
+                <div class="author">
+                    Nick Vitsas<sup>1<a href="https://orcid.org/0000-0002-0269-6166"><img class="orcid" src="../../images/ORCIDIcon.svg"/></a></sup>
+                </div>
+                <div class="author">
+                    Iordanis Evangelou<sup>1<a href="https://orcid.org/0000-0003-4556-390X"><img class="orcid" src="../../images/ORCIDIcon.svg"/></a></sup>
+                </div>
+                <div class="author">
+                    Georgios Papaioannou<sup>1<a href="https://orcid.org/0000-0003-4774-0746"><img class="orcid" src="../../images/ORCIDIcon.svg"/></a></sup>
+                </div>
+                <div class="author">
+                    Anastasios Gkaravelis<sup>1<a href="https://orcid.org/0000-0002-9673-2462"><img class="orcid" src="../../images/ORCIDIcon.svg"/></a></sup>
+                </div>
+            </div>
+            <div class="organizations">
+                <div class="organization">
+                    <sup>1</sup>Department of Informatics, Athens University of Economics and Business
+                </div>
+            </div>
+            <div class="teaser-container">
+                <img class="teaser-image" src="rep_image.jpg"/>
+            </div>
+            <div class="event">
+                To be presented in Eurographics 2023
+            </div>
+            <div class="section">
+                Abstract
+                <hr>
+            </div>
+            <div class="abstract">
+                Oriented bounding box (OBB) hierarchies can be used instead of hierarchies based on axis-aligned bounding boxes (AABB), providing tighter fitting to the underlying geometric structures and resulting in improved interference tests, such as ray-geometry intersections. In this paper, we present a method for the fast, parallel transformation of an existing bounding volume hierarchy (BVH), based on AABBs, into a hierarchy based on oriented bounding boxes. To this end, we parallelise a high-quality OBB extraction algorithm from the literature to operate as a standalone OBB estimator and further extend it to efficiently build an OBB hierarchy in a bottom up manner. This agglomerative approach allows for fast parallel execution and the formation of arbitrary, high-quality OBBs in bounding volume hierarchies. The method is fully implemented on the GPU and extensively evaluated with ray intersections. 
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <iframe width="80%" height="600" src="https://www.youtube.com/embed/zCg31NUkZGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <br>
+            <div class="section">
+                Resources
+                <hr>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/PDFIcon.svg"/>
+                    <span class="resource-text"><a href="http://graphics.cs.aueb.gr/graphics/docs/papers/OBBTreeBuilder.pdf">Paper PDF (Author's Version)</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/GitHubIcon.svg"/>
+                    <span class="resource-text"><a href="https://github.com/cgaueb/obvh">GitHub Repository</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/PPTXIcon.svg"/>
+                    <span class="resource-text"><a href=""">Presentation (TBD)</a></span>
+                </div>
+                <div class="resource">
+                    <img class="resource-icon" src="../../images/VideoIcon.svg"/>
+                    <span class="resource-text"><a href="https://www.youtube.com/watch?v=iETDEkcRI8M">Presentation Video (TBD)</a></span>
+                </div>
+            </div>
+            <div class="section">
+                How to cite
+                <hr>
+                <p class="paragraph"> TBD </p>
+                <!--<div class="citation">
+                    <div class="citation-text">
+                    </div>
+                </div>-->
+            </div>
+            <div class="section">
+                Copyright Notice
+                <hr>
+                <p class="paragraph">This is the author prepared version of the work. Original publisher’ s version can be found at <a href="https://diglib.eg.org">https://diglib.eg.org</a>/</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-text"></div>
+        </div>
+    </body>
+</html>
